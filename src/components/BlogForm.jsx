@@ -1,4 +1,4 @@
-export function BlogForm({ children, onSubmit }) {
+function BlogForm({ children, onSubmit }) {
   return (
     <form className="max-w-sm mx-auto" onSubmit={onSubmit}>
       {children}
